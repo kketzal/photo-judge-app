@@ -7,6 +7,12 @@ export interface RankedImage {
   ratings: number[]
   createdAt: string
   updatedAt: string
+  totalScore?: number
+  observations?: string
+  originalPath?: string
+  error?: string | Error
+  file?: File
+  pdfFile?: File
 }
 
 export interface ImageScore {

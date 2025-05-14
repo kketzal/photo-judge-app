@@ -27,7 +27,7 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
-import * as db from '@/lib';
+import * as db from '@/lib/indexed-db';
 import { convertTiffAndBmpToPngIfNecessary, type ConvertedImageInfo } from '@/lib/image-converter';
 import { getCanonicalImagePath } from '@/lib/utils';
 
